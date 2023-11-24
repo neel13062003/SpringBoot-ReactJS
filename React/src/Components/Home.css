@@ -1,0 +1,10 @@
+.home {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  img {
+    max-width: 450px;
+    height: 380px;
+    margin-top: 10px;
+  }

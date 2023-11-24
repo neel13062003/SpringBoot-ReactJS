@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  background-color: rgb(12, 15, 155);
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav {
+  padding: 15px 0 0 0;
+  display: flex;
+  justify-content: right;
+  background-color: #ff9916;
+  height:10vh;
+  font-size:20px;
+  font-weight: bold;
+  width:100%;
+}
+
+nav a {
+  color: #000000;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+nav a:hover {
+  cursor:pointer;
+  transform: scale(1.20);
+  overflow-y: hidden;
+  font-weight: bold;
+}
+
+section {
+  padding: 20px;
+  background-color: #eee;
+  justify-content: center;
+  text-align: center;
+}

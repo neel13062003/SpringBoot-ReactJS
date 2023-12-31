@@ -1,13 +1,15 @@
 .footer {
     background-color: #ff9916;
-    color: #fffdfd;
+    /* color: #fffdfd; */
+    /* color: blue; */
+    height:7vh;
     padding: 10px 0;
     text-align: center;
-    position:fixed;
+    /* position:fixed; */
+    position:sticky;
     bottom: 0;
     width: 100%;
-    /* z-index: -1; */
-
+    z-index: 10;
     > p{
         color: black;
     }

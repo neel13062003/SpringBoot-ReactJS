@@ -5,8 +5,8 @@
     height:7vh;
     padding: 10px 0;
     text-align: center;
-    /* position:fixed; */
-    position:sticky;
+    position:fixed;
+    /* position:sticky; */
     bottom: 0;
     width: 100%;
     z-index: 10;
